@@ -1,0 +1,22 @@
+-- -----------------------------------------------------
+-- Schema phonebook
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS phonebook DEFAULT CHARACTER SET utf8 ;
+USE phonebook ;
+
+-- -----------------------------------------------------
+-- Table contact
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS contact (
+  con_id INT NOT NULL AUTO_INCREMENT,
+  con_name VARCHAR(45) NOT NULL,
+  con_phone VARCHAR(25) NOT NULL,
+  con_email VARCHAR(45) NOT NULL,
+  con_date_of_birth DATE NOT NULL,
+  create_at DATETIME NOT NULL,
+  update_at DATETIME NULL,
+  delete_at DATETIME NULL,
+  PRIMARY KEY (con_id),
+  UNIQUE INDEX con_email_UNIQUE (con_email ASC) VISIBLE,
+  UNIQUE INDEX con_phone_UNIQUE (con_phone ASC) VISIBLE)
+ENGINE = InnoDB;

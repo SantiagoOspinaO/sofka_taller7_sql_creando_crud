@@ -1,0 +1,6 @@
+insert into contact (con_name, con_phone, con_email, con_date_of_birth, create_at) values ('Morgen Fitzpatrick', '+52 (173) 254-0142', 'mfitzpatrick0@theguardian.com', '2001-06-30', '2021-03-11 20:57:00');
+insert into contact (con_name, con_phone, con_email, con_date_of_birth, create_at) values ('Carlie Ruckhard', '+62 (158) 114-6114', 'cruckhard1@comsenz.com', '1999-03-26', '2022-01-11 18:39:34');
+insert into contact (con_name, con_phone, con_email, con_date_of_birth, create_at) values ('Margaret Kenway', '+62 (261) 836-5454', 'mkenway2@baidu.com', '2002-06-10', '2021-04-07 18:32:41');
+insert into contact (con_name, con_phone, con_email, con_date_of_birth, create_at) values ('Kimberlee Mathely', '+33 (541) 859-7746', 'kmathely3@1und1.de', '2000-10-02', '2022-02-11 11:30:05');
+insert into contact (con_name, con_phone, con_email, con_date_of_birth, create_at) values ('Karyl Cathrae', '+7 (171) 298-4579', 'kcathrae4@nps.gov', '1997-02-08', '2021-12-03 19:45:00');
+insert into contact (con_name, con_phone, con_email, con_date_of_birth, create_at) values ('Mortimer Sans', '+63 (514) 577-9770', 'msans5@sphinn.com', '1991-11-08', '2022-02-12 15:57:05');
